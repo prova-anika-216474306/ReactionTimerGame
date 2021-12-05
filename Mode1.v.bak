@@ -1,0 +1,53 @@
+module Mode1(selection,key, counter, cin, cout, highscore_mode1, activation, b,light1);
+	
+	//selection is mode selection
+	//key in the button pressed
+	
+	input selection, key,  cin, cout;
+	input [23:0] counter;
+	output reg b;
+	output reg activation;
+	output reg [9:0] light1;
+	output [23:0] highscore_mode1;
+	
+	
+	wire A;
+	wire [11:0]r;
+	//Declare all wires and registers.
+	
+	LFSR12 L1(clk50M,r[11:0]);
+	DownCounter DC1(r[11:0],~w,clk1k,A);
+	HighScore H1(b,C[23:0],hs1[23:0]);
+	
+	
+always@(posedge cin) begin
+		if (key) begin
+			activation = b & A;
+			light1[9] = b & A;
+			light1[8] = b & A;
+			light1[7] = b & A;
+			light1[6] = b & A;
+			light1[5] = b & A;
+			light1[4] = b & A;
+			light1[3] = b & A;
+			light1[2] = b & A;
+			light1[1] = b & A;
+			light1[0] = b & A;
+		end
+		else begin
+			activation = 1'b0;
+			light1[9:0] = 10'b0000000000;
+		end
+	end
+	
+	
+		always@(posedge key, negedge selection) 
+	begin
+		if (~selection)
+			b <= 1'b0;
+		else
+			b <= b^1'b1;
+	end
+	//Enable and disable for the outputs.
+	
+endmodule 
