@@ -1,0 +1,277 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "trig",
+					"strict" : false
+				},
+				{
+					"name" : "segments[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[7]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[8]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[9]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[10]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[11]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[12]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[13]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[14]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[15]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[16]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[17]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[18]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[19]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[20]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[21]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[22]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[23]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[24]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[25]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[26]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[27]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[28]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[29]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[30]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[31]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[32]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[33]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[34]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[35]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[36]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[37]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[38]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[39]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[40]",
+					"strict" : false
+				},
+				{
+					"name" : "segments[41]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led[8]",
+					"strict" : false
+				},
+				{
+					"name" : "led[9]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[8]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[9]",
+					"strict" : false
+				},
+				{
+					"name" : "cin",
+					"strict" : false
+				},
+				{
+					"name" : "selection[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keybutton[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keybutton[1]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[1]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[3]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[2]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[5]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[4]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[7]",
+					"strict" : false
+				},
+				{
+					"name" : "selection[6]",
+					"strict" : false
+				},
+				{
+					"name" : "echo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

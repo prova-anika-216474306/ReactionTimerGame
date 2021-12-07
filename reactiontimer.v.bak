@@ -1,0 +1,75 @@
+module reactiontimer(keybutton,selection,cin,ss,d,led);
+	input [1:0]keybutton;
+	input [9:0]selection;
+	input cin;
+	output [41:0]ss;
+	output d;
+	output [9:0]led;
+	//Declare all inputs and outputs.
+	
+	wire cout, clk100, clk10, clk1, clk01, clk001, clkn, A1, A2, A, b;
+	wire [23:0] highscoreone;
+	wire [23:0] highscoretwo;
+	wire [9:0]light1;
+	wire [9:0]light2;
+	wire [23:0]highscoreALL;
+	wire [23:0]o;
+	wire [23:0]C;
+	wire R3, R4;
+	reg R1, R2, R;
+	
+	
+ 	ClockDivider cd(cin,cout);
+	Counter C0(R,A,cout,clk100,o[3:0]);
+	Counter C1(R,A,clk100,clk10,o[7:4]);
+	Counter C2(R,A,clk10,clk1,o[11:8]);
+	Counter C3(R,A,clk1,clk01,o[15:12]);
+	Counter C4(R,A,clk01,clk001,o[19:16]);
+	Counter C5(R,A,clk001,clkn,o[23:20]);
+
+   Test1 T1(~selection[9],keybutton[0],o[23:0],cin,cout,highscoreone[23:0],A1,b,light1[9:0]);
+	Test2 T2(selection[9],~keybutton[1],o[23:0],selection[7:0],cin,cout,highscoretwo[23:0],A2,LIGHT2[9:0]);
+	StateMachineR S2(selection[9],cout,R3);
+	StateMachineR S3(~selection[9],cout,R4);
+	
+	
+	
+	Multiplexer M0(o[3:0],highscoreALL[3:0],selection[8],C[3:0]);
+	Multiplexer M1(o[7:4],highscoreALL[7:4],selection[8],C[7:4]);
+	Multiplexer M2(o[11:8],highscoreALL[11:8],selection[8],C[11:8]);
+	Multiplexer M3(o[15:12],highscoreALL[15:12],selection[8],C[15:12]);
+	Multiplexer M4(o[19:16],highscoreALL[19:16],selection[8],C[19:16]);
+	Multiplexer M5(o[23:20],highscoreALL[23:20],selection[8],C[23:20]);
+	
+	Multiplexer24 M6(highscoreone[23:0],highscoretwo[23:0],selection[9],highscoreALL[23:0]);
+	
+	SSDecoder D0(C[3:0],ss[6:0]);
+	SSDecoder D1(C[7:4],ss[13:7]);
+	SSDecoder D2(C[11:8],ss[20:14]);
+	SSDecoder D3(C[15:12],ss[27:21]);
+	SSDecoder D4(C[19:16],ss[34:28]);
+	SSDecoder D5(C[23:20],ss[41:35]);
+	//Generate all top level modules.
+	
+	assign A = A1 | A2;
+	assign led[9] = light1[9] | light2[9];
+	assign led[8] = light1[8] | light2[8];
+	assign led[7] = light1[7] | light2[7];
+	assign led[6] = light1[6] | light2[6];
+	assign led[5] = light1[5] | light2[5];
+	assign led[4] = light1[4] | light2[4];
+	assign led[3] = light1[3] | light2[3];
+	assign led[2] = light1[2] | light2[2];
+	assign led[1] = light1[1] | light2[1];
+	assign led[0] = light1[0] | light2[0];
+
+	always@(posedge cin) begin
+		R1 = ~b & ~keybutton[0] & ~selection[9];
+		R2 = ~A2 & ~keybutton[1] & selection[9];
+		R = R1 | R2 | R3 | R4;
+	end
+	
+	assign d = 0;
+	//Always keep the decimal point on.
+
+endmodule

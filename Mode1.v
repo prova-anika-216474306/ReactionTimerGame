@@ -1,9 +1,14 @@
-module Mode1(selection,key, counter, cin, cout, highscore_mode1, activation, b,light1);
+module Mode1(selection, selection2, trig, echo, key, counter, cin, cout, highscore_mode1, activation, b,light1);
 	
 	//selection is mode selection
 	//key in the button pressed
 	
-	input selection, key,  cin, cout;
+	
+	
+	input echo;
+	output trig;
+
+	input selection, selection2, key,  cin, cout;
 	input [23:0] counter;
 	output reg b;
 	output reg activation;
@@ -21,7 +26,7 @@ module Mode1(selection,key, counter, cin, cout, highscore_mode1, activation, b,l
 	
 	wire a;
 	
-	highscore hs1(b, counter[23:0], highscore_mode1[23:0]);
+	highscore hs1(b, counter[23:0], selection2, highscore_mode1[23:0]);
 	
 	
 always@(posedge cin) begin
@@ -45,13 +50,32 @@ always@(posedge cin) begin
 	end
 	
 	
-		always@(posedge key, negedge selection) 
+//for stopping
+sensor sn1(cin, trig, echo, key, stop);
+
+wire stop;
+
+reg decide;
+
+always@(posedge cin) 
+begin
+	if(selection2)
 	begin
-		if (~selection)
+	decide <= stop;
+	end
+	else
+	begin
+	decide <= key;
+	end
+	end
+	
+always@(posedge decide, negedge selection) 
+begin
+		if (~selection) //MODE SELECTION
 			b <= 1'b0;
 		else
 			b <= b^1'b1;
 	end
 	
-	
+
 endmodule 

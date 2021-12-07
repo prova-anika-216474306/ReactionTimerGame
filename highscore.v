@@ -1,13 +1,19 @@
-module highscore (b, timecount, hs);
-	input b;
+module highscore (b, timecount, switch, hs);
+	input b,switch;
+	
 	input [23:0] timecount;
 	output reg [23:0] hs;
+	
+
 	
 	always@(negedge b) 
 	
 	begin
+
 		if (hs == 0 && timecount != 0)
 			hs = timecount;
+			
+		
 		
 		else 
 		
@@ -19,7 +25,8 @@ module highscore (b, timecount, hs);
 		
 			if(timecount < hs && timecount != 0)
 				hs[23:0] = timecount[23:0];
-			
+			else if(switch == 1 && x == 1)
+			hs =0;
 		
 			else
 				hs[23:0] = hs[23:0];
@@ -28,5 +35,10 @@ module highscore (b, timecount, hs);
 		end
 	end
 	
-	
+	reg x = 0;
+	always@(posedge switch)
+
+begin
+x = x + 1;
+	end
 endmodule 

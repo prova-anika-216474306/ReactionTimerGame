@@ -1,0 +1,32 @@
+module count(reset_button, act,clock,cout,outnum);
+	
+	input reset, act, clock;
+	output reg [3:0] outnum;
+	output reg cout;
+	
+	
+	always@(posedge clk, posedge reset) 
+	begin
+		if(reset)
+			outnum <= 4'b0000;
+		
+		else if (act) 
+		
+		begin
+			if (outnum == 4'b0100)
+				cout <= 1'b0;
+			if (outnum == 4'b1001) 
+			
+			begin
+				cout <= 1'b1;
+				outnum <= 1'b0000;
+			end
+			else
+				outnum <= outnum + 1'b1;
+		end
+		else
+			outnum = outnum;
+		
+	end
+
+endmodule 

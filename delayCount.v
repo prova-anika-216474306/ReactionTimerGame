@@ -1,12 +1,12 @@
 module delayCount (r, key, clock1 ,output_signal);
-	input [11:0]c;
-	input start;
+	input [11:0]r;
+	input key;
 	input clock1;
 	output reg output_signal;
 	
 	reg [11:0] counter;
 	
-	always@(posedge clock1 || posedge key) 
+	always@(posedge clock1, posedge key) 
 	begin
 		if (key) 
 		begin
@@ -36,5 +36,4 @@ module delayCount (r, key, clock1 ,output_signal);
 	end
 	
 	
-	
-endmodule
+	endmodule

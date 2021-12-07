@@ -1,0 +1,15 @@
+module multiplexer(a,b,switch,f);
+	input [3:0]a;
+	input [3:0]b;
+	input s;
+	output reg [3:0]result;
+	//Declare inputs and output.
+	
+	always@(a, b, switch)
+	case(switch)
+			0 : result[3:0] <= a[3:0];
+			1 : result[3:0] <= b[3:0];
+		endcase
+	//Assign values based on the switch.
+	
+endmodule 

@@ -1,0 +1,617 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'cin'
+Slack : -56.237
+TNS   : -1086.806
+
+Type  : Slow 1200mV 85C Model Setup 'Mode2:m2|signal2'
+Slack : -4.226
+TNS   : -97.259
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:cd|cout'
+Slack : -4.124
+TNS   : -84.867
+
+Type  : Slow 1200mV 85C Model Setup 'keybutton[0]'
+Slack : -4.123
+TNS   : -22.012
+
+Type  : Slow 1200mV 85C Model Setup 'Mode1:m1|b'
+Slack : -4.072
+TNS   : -94.657
+
+Type  : Slow 1200mV 85C Model Setup 'count:counter0|cout'
+Slack : -2.669
+TNS   : -11.953
+
+Type  : Slow 1200mV 85C Model Setup 'count:counter3|cout'
+Slack : -2.414
+TNS   : -10.739
+
+Type  : Slow 1200mV 85C Model Setup 'count:counter1|cout'
+Slack : -2.338
+TNS   : -10.625
+
+Type  : Slow 1200mV 85C Model Setup 'count:counter2|cout'
+Slack : -2.308
+TNS   : -10.613
+
+Type  : Slow 1200mV 85C Model Setup 'count:counter4|cout'
+Slack : -2.300
+TNS   : -8.805
+
+Type  : Slow 1200mV 85C Model Setup 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : -2.202
+TNS   : -2.202
+
+Type  : Slow 1200mV 85C Model Setup 'Mode1:m1|decide'
+Slack : -0.425
+TNS   : -0.425
+
+Type  : Slow 1200mV 85C Model Setup 'selection[0]'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cin'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:cd|cout'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Mode1:m1|b'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Mode2:m2|signal2'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'count:counter0|cout'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'count:counter1|cout'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'count:counter2|cout'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'count:counter3|cout'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'count:counter4|cout'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'selection[0]'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Mode1:m1|decide'
+Slack : 0.583
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'keybutton[0]'
+Slack : 1.272
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ClockDivider:cd|cout'
+Slack : -2.121
+TNS   : -34.616
+
+Type  : Slow 1200mV 85C Model Recovery 'count:counter3|cout'
+Slack : -0.704
+TNS   : -2.770
+
+Type  : Slow 1200mV 85C Model Recovery 'count:counter1|cout'
+Slack : -0.620
+TNS   : -2.478
+
+Type  : Slow 1200mV 85C Model Recovery 'count:counter4|cout'
+Slack : -0.507
+TNS   : -1.579
+
+Type  : Slow 1200mV 85C Model Recovery 'count:counter2|cout'
+Slack : -0.497
+TNS   : -1.851
+
+Type  : Slow 1200mV 85C Model Recovery 'count:counter0|cout'
+Slack : -0.436
+TNS   : -1.686
+
+Type  : Slow 1200mV 85C Model Removal 'count:counter4|cout'
+Slack : 0.660
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ClockDivider:cd|cout'
+Slack : 0.724
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'count:counter2|cout'
+Slack : 0.735
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'count:counter0|cout'
+Slack : 0.747
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'count:counter1|cout'
+Slack : 1.019
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'count:counter3|cout'
+Slack : 1.045
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cin'
+Slack : -3.000
+TNS   : -182.634
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'selection[0]'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'keybutton[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:cd|cout'
+Slack : -1.222
+TNS   : -50.102
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : -1.222
+TNS   : -30.550
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Mode1:m1|b'
+Slack : -1.222
+TNS   : -29.328
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Mode2:m2|signal2'
+Slack : -1.222
+TNS   : -29.328
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count:counter0|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count:counter1|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count:counter2|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count:counter3|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count:counter4|cout'
+Slack : -1.222
+TNS   : -4.888
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Mode1:m1|decide'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow 1200mV 0C Model Setup 'cin'
+Slack : -51.045
+TNS   : -977.329
+
+Type  : Slow 1200mV 0C Model Setup 'Mode2:m2|signal2'
+Slack : -3.824
+TNS   : -87.917
+
+Type  : Slow 1200mV 0C Model Setup 'Mode1:m1|b'
+Slack : -3.696
+TNS   : -85.880
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:cd|cout'
+Slack : -3.650
+TNS   : -74.049
+
+Type  : Slow 1200mV 0C Model Setup 'keybutton[0]'
+Slack : -3.568
+TNS   : -18.384
+
+Type  : Slow 1200mV 0C Model Setup 'count:counter0|cout'
+Slack : -2.407
+TNS   : -10.631
+
+Type  : Slow 1200mV 0C Model Setup 'count:counter3|cout'
+Slack : -2.168
+TNS   : -9.494
+
+Type  : Slow 1200mV 0C Model Setup 'count:counter1|cout'
+Slack : -2.116
+TNS   : -9.483
+
+Type  : Slow 1200mV 0C Model Setup 'count:counter2|cout'
+Slack : -2.068
+TNS   : -9.435
+
+Type  : Slow 1200mV 0C Model Setup 'count:counter4|cout'
+Slack : -2.038
+TNS   : -7.823
+
+Type  : Slow 1200mV 0C Model Setup 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : -1.888
+TNS   : -1.888
+
+Type  : Slow 1200mV 0C Model Setup 'Mode1:m1|decide'
+Slack : -0.327
+TNS   : -0.327
+
+Type  : Slow 1200mV 0C Model Setup 'selection[0]'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cin'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Mode1:m1|b'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Mode2:m2|signal2'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:cd|cout'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'count:counter0|cout'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'count:counter1|cout'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'count:counter3|cout'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'count:counter4|cout'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'count:counter2|cout'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'selection[0]'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Mode1:m1|decide'
+Slack : 0.505
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'keybutton[0]'
+Slack : 1.110
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ClockDivider:cd|cout'
+Slack : -1.880
+TNS   : -29.517
+
+Type  : Slow 1200mV 0C Model Recovery 'count:counter3|cout'
+Slack : -0.564
+TNS   : -2.215
+
+Type  : Slow 1200mV 0C Model Recovery 'count:counter1|cout'
+Slack : -0.492
+TNS   : -1.968
+
+Type  : Slow 1200mV 0C Model Recovery 'count:counter2|cout'
+Slack : -0.383
+TNS   : -1.408
+
+Type  : Slow 1200mV 0C Model Recovery 'count:counter4|cout'
+Slack : -0.383
+TNS   : -1.143
+
+Type  : Slow 1200mV 0C Model Recovery 'count:counter0|cout'
+Slack : -0.313
+TNS   : -1.203
+
+Type  : Slow 1200mV 0C Model Removal 'count:counter4|cout'
+Slack : 0.620
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ClockDivider:cd|cout'
+Slack : 0.683
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'count:counter2|cout'
+Slack : 0.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'count:counter0|cout'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'count:counter1|cout'
+Slack : 0.961
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'count:counter3|cout'
+Slack : 0.965
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cin'
+Slack : -3.000
+TNS   : -182.634
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'selection[0]'
+Slack : -3.000
+TNS   : -4.222
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'keybutton[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:cd|cout'
+Slack : -1.222
+TNS   : -50.102
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : -1.222
+TNS   : -30.550
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Mode1:m1|b'
+Slack : -1.222
+TNS   : -29.328
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Mode2:m2|signal2'
+Slack : -1.222
+TNS   : -29.328
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count:counter0|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count:counter1|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count:counter2|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count:counter3|cout'
+Slack : -1.222
+TNS   : -6.110
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count:counter4|cout'
+Slack : -1.222
+TNS   : -4.888
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Mode1:m1|decide'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Fast 1200mV 0C Model Setup 'cin'
+Slack : -26.315
+TNS   : -451.659
+
+Type  : Fast 1200mV 0C Model Setup 'keybutton[0]'
+Slack : -1.832
+TNS   : -6.736
+
+Type  : Fast 1200mV 0C Model Setup 'Mode2:m2|signal2'
+Slack : -1.731
+TNS   : -39.199
+
+Type  : Fast 1200mV 0C Model Setup 'Mode1:m1|b'
+Slack : -1.617
+TNS   : -37.105
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:cd|cout'
+Slack : -1.528
+TNS   : -25.763
+
+Type  : Fast 1200mV 0C Model Setup 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : -1.082
+TNS   : -1.082
+
+Type  : Fast 1200mV 0C Model Setup 'count:counter0|cout'
+Slack : -0.945
+TNS   : -3.899
+
+Type  : Fast 1200mV 0C Model Setup 'count:counter4|cout'
+Slack : -0.786
+TNS   : -2.910
+
+Type  : Fast 1200mV 0C Model Setup 'count:counter1|cout'
+Slack : -0.760
+TNS   : -3.089
+
+Type  : Fast 1200mV 0C Model Setup 'count:counter3|cout'
+Slack : -0.722
+TNS   : -3.140
+
+Type  : Fast 1200mV 0C Model Setup 'count:counter2|cout'
+Slack : -0.709
+TNS   : -3.040
+
+Type  : Fast 1200mV 0C Model Setup 'Mode1:m1|decide'
+Slack : 0.070
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'selection[0]'
+Slack : 0.694
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cin'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:cd|cout'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Mode1:m1|b'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Mode2:m2|signal2'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'count:counter1|cout'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'count:counter3|cout'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'count:counter4|cout'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'count:counter0|cout'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'count:counter2|cout'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'selection[0]'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Mode1:m1|decide'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'keybutton[0]'
+Slack : 0.777
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ClockDivider:cd|cout'
+Slack : -1.096
+TNS   : -12.994
+
+Type  : Fast 1200mV 0C Model Recovery 'count:counter3|cout'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'count:counter4|cout'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'count:counter1|cout'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'count:counter0|cout'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'count:counter2|cout'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ClockDivider:cd|cout'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'count:counter4|cout'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'count:counter2|cout'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'count:counter0|cout'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'count:counter1|cout'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'count:counter3|cout'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cin'
+Slack : -3.000
+TNS   : -154.385
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'selection[0]'
+Slack : -3.000
+TNS   : -4.088
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'keybutton[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:cd|cout'
+Slack : -1.000
+TNS   : -41.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Mode1:m1|sensor:sn1|ClockDivider:comb_3|cout'
+Slack : -1.000
+TNS   : -25.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Mode1:m1|b'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Mode2:m2|signal2'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count:counter0|cout'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count:counter1|cout'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count:counter2|cout'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count:counter3|cout'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count:counter4|cout'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Mode1:m1|decide'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------
